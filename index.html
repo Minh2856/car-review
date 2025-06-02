@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Car Review</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <h1>Car Review</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#">Explore Cars</a></li>
+                    <li><a href="#">Subscribe</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="image__overlay">
+                    <img src="imgs/luxA" alt="Vinfast Lux A 2.0"/>
+                    <div class="overlay__text">
+                        <h2>Vinfast Lux A 2.0</h2>
+                        <p>The VinFast Lux A 2.0 is a sleek Vietnamese sedan blending Italian design with strong
+                            performance and  luxury.</p>
+                    </div>
+                </div>
+                <details>
+                    <summary>Learn more</summary>
+                    <ul>
+                        <li><strong>Engine:</strong> 2.0L turbocharged I4, 174 hp, 300 Nm torque</li>
+                        <li><strong>Transmission:</strong> 8-speed automatic, RWD</li>
+                        <li><strong>Dimensions:</strong> 4,973 mm L × 1,900 mm W × 1,500 mm H</li>
+                        <li><strong>Wheelbase:</strong> 2,968 mm</li>
+                        <li><strong>Fuel Efficiency:</strong> 8.39 L/100 km combined</li>
+                        <li><strong>Suspension:</strong> Independent front & rear</li>
+                        <li><strong>Safety:</strong> 6 airbags, ABS, ESC, 360° camera</li>
+                        <li><strong>Interior:</strong> Nappa leather, 10.4" touchscreen, 13-speaker audio</li>
+                    </ul>
+                </details>
+            </div>
+        </section>
+
+        <section class="main">
+            <div class="container">
+                <h2>We provide professional insights and personal experiences on automobiles</h2>
+                <div class="gallery__wrapper">
+                    <button class="gallery__btn left" id="leftBtn">&#8249;</button>
+                    <div class="gallery" id="gallery">
+                        <!-- Inject from app.js -->
+                    </div>
+                    <button class="gallery__btn right" id="rightBtn">&#8250;</button>
+                </div>
+                <figcaption>Read other car reviews</figcaption>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p><a href="tel:0123456789"><span class="material-icons-outlined">phone</span> 0123 456 789</a></p>
+                <p><a href="mailto:hello@car.review"><span class="material-icons-outlined">email</span>
+                        hello@car.review</a></p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Car Review. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
